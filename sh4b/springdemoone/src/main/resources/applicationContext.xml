@@ -16,8 +16,14 @@
         <property name="printedLoggerLevel" value="FINE"/>
     </bean>
 
-<!--    <bean id="myCoach" class="learn.spr.sh4b.springdemo.TrackCoach"/>-->
-    <bean id="myCoach" class="learn.spr.sh4b.springdemo.BaseballCoach"/>
+    <bean id="myFortune" class="learn.spr.sh4b.springdemo.HappyFortuneService"/>
+
+    <!--<bean id="myCoach" class="learn.spr.sh4b.springdemo.TrackCoach">
+        <constructor-arg ref="myFortune"/>
+    </bean>-->
+    <bean id="myCoach" class="learn.spr.sh4b.springdemo.BaseballCoach">
+        <constructor-arg ref="myFortune"/>
+    </bean>
 
 </beans>
 
