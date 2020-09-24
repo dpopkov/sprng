@@ -11,3 +11,4 @@ sh4b - Spring & Hibernate for Beginners
 * Injecting Literal Values.
 * Injecting values from a properties file.
 * Setup bean scope (singleton or prototype).
+* Bean Lifecycle (init-method, destroy-method).

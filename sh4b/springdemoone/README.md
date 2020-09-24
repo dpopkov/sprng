@@ -37,3 +37,11 @@ Bean Scopes
 </bean>
 ```
 Spring Bean scopes: singleton, prototype, request, session, global-session.
+
+### Bean lifecycle
+```XML
+<bean id="beanId" class="package.ClassName"
+      init-method="doMyStartupStuff"
+      destroy-method="doMyCleanupStuff">
+</bean>
+```
