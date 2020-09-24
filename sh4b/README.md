@@ -8,3 +8,4 @@ sh4b - Spring & Hibernate for Beginners
 * Configure Spring logging level using custom LoggerConfig bean.
 * Use Constructor Injection.
 * Use Setter Injection.
+* Injecting Literal Values.

@@ -26,7 +26,12 @@
     </bean>
 
     <bean id="myCricketCoach" class="learn.spr.sh4b.springdemo.CricketCoach">
+        <!-- Set up setter injection -->
         <property name="fortuneService" ref="myFortune"/>
+
+        <!-- Set up literal values injection -->
+        <property name="emailAddress" value="thebestcoach@example.org" />
+        <property name="team" value="The Best Team" />
     </bean>
 
 </beans>

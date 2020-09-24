@@ -8,6 +8,8 @@ public class SetterDemoApp {
         CricketCoach coach = context.getBean("myCricketCoach", CricketCoach.class);
         System.out.println(coach.getDailyWorkout());
         System.out.println(coach.getDailyFortune());
+        System.out.println("EmailAddress: " + coach.getEmailAddress());
+        System.out.println("Team: " + coach.getTeam());
         context.close();
     }
 }
