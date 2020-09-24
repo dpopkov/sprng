@@ -1,6 +1,12 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 2 - [spring-demo-annotations](springdemoannotations)
+
+#### Spring Inversion of Control - Configuration with Java Annotations
+* Enable Component Scanning in config file.
+* Add @Component annotation with bean-id to bean classes.
+
 ### 1 - [spring-demo-one](springdemoone)
 
 #### Spring Inversion of Control - XML Configuration
