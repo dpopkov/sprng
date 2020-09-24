@@ -10,3 +10,4 @@ sh4b - Spring & Hibernate for Beginners
 * Use Setter Injection.
 * Injecting Literal Values.
 * Injecting values from a properties file.
+* Setup bean scope (singleton or prototype).
