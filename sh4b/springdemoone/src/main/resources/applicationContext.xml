@@ -25,6 +25,10 @@
         <constructor-arg ref="myFortune"/>
     </bean>
 
+    <bean id="myCricketCoach" class="learn.spr.sh4b.springdemo.CricketCoach">
+        <property name="fortuneService" ref="myFortune"/>
+    </bean>
+
 </beans>
 
 

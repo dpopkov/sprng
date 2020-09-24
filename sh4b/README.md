@@ -7,3 +7,4 @@ sh4b - Spring & Hibernate for Beginners
 * Use XML configuration - ClassPathXmlApplicationContext.
 * Configure Spring logging level using custom LoggerConfig bean.
 * Use Constructor Injection.
+* Use Setter Injection.
