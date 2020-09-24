@@ -9,3 +9,4 @@ sh4b - Spring & Hibernate for Beginners
 * Use Constructor Injection.
 * Use Setter Injection.
 * Injecting Literal Values.
+* Injecting values from a properties file.

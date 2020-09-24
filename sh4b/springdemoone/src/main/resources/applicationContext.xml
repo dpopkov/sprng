@@ -25,17 +25,16 @@
         <constructor-arg ref="myFortune"/>
     </bean>
 
+    <!-- Load the properties file -->
+    <context:property-placeholder location="sport.properties"/> <!-- In course:  classpath:sport.properties -->
+
     <bean id="myCricketCoach" class="learn.spr.sh4b.springdemo.CricketCoach">
         <!-- Set up setter injection -->
         <property name="fortuneService" ref="myFortune"/>
 
         <!-- Set up literal values injection -->
-        <property name="emailAddress" value="thebestcoach@example.org" />
-        <property name="team" value="The Best Team" />
+        <property name="emailAddress" value="${cricket.coach.email}" />
+        <property name="team" value="${cricket.team}" />
     </bean>
 
 </beans>
-
-
-
-
