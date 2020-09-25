@@ -2,12 +2,14 @@ package learn.spr.sh4b.annotationsdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope("singleton")
 public class CrossfitCoach implements Coach {
     @Autowired
-    @Qualifier("fileRandomFortuneService")
+    @Qualifier("happyFortuneService")
     private FortuneService fortuneService;
 
     public CrossfitCoach() {

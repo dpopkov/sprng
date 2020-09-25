@@ -11,6 +11,7 @@ sh4b - Spring & Hibernate for Beginners
 * Autowiring for Setter (or any method) injection.
 * Autowiring for Field injection.
 * Autowiring using @Qualifier annotation.
+* Using @Scope annotation (singleton, prototype).
 
 ### 1 - [spring-demo-one](springdemoone)
 
