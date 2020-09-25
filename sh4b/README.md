@@ -10,6 +10,7 @@ sh4b - Spring & Hibernate for Beginners
 * Autowiring for Constructor injection.
 * Autowiring for Setter (or any method) injection.
 * Autowiring for Field injection.
+* Autowiring using @Qualifier annotation.
 
 ### 1 - [spring-demo-one](springdemoone)
 
