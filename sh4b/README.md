@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Enable Component Scanning in config file.
 * Add @Component annotation with bean-id to bean classes.
 * Using Default Component names.
+* Autowiring for Constructor injection.
 
 ### 1 - [spring-demo-one](springdemoone)
 
