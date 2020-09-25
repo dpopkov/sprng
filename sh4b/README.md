@@ -9,6 +9,7 @@ sh4b - Spring & Hibernate for Beginners
 * Using Default Component names.
 * Autowiring for Constructor injection.
 * Autowiring for Setter (or any method) injection.
+* Autowiring for Field injection.
 
 ### 1 - [spring-demo-one](springdemoone)
 

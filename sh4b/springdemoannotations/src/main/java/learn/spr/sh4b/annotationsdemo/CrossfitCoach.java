@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CrossfitCoach implements Coach {
+    @Autowired
     private FortuneService fortuneService;
 
     public CrossfitCoach() {
@@ -16,11 +17,11 @@ public class CrossfitCoach implements Coach {
         this.fortuneService = fortuneService;
     }*/
 
-    @Autowired
+    /*@Autowired
     public void anyNonSetterNameMayBeUsedForDependencyInjection(FortuneService fortuneService) {
         System.out.println("CrossfitCoach: within method anyNonSetterNameMayBeUsedForDependencyInjection");
         this.fortuneService = fortuneService;
-    }
+    }*/
 
     @Override
     public String getDailyWorkout() {
