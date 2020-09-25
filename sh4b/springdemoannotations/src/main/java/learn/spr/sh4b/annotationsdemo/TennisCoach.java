@@ -2,11 +2,12 @@ package learn.spr.sh4b.annotationsdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Component
-@Scope("prototype")
 public class TennisCoach implements Coach {
     @Autowired
     @Qualifier("randomFortuneService")
@@ -20,6 +21,16 @@ public class TennisCoach implements Coach {
     public TennisCoach(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
     }*/
+
+    @PostConstruct
+    public void doMyStartupStuff() {
+        System.out.println("TennisCoach: inside method doMyStartupStuff()");
+    }
+
+    @PreDestroy
+    public void doMyCleanupStuff() {
+        System.out.println("TennisCoach: inside method doMyCleanupStuff()");
+    }
 
     /*@Autowired
     public void setFortuneService(FortuneService fortuneService) {

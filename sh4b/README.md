@@ -12,6 +12,7 @@ sh4b - Spring & Hibernate for Beginners
 * Autowiring for Field injection.
 * Autowiring using @Qualifier annotation.
 * Using @Scope annotation (singleton, prototype).
+* Using Bean Lifecycle Method annotations (@PostConstruct, @PreDestroy).
 
 ### 1 - [spring-demo-one](springdemoone)
 
