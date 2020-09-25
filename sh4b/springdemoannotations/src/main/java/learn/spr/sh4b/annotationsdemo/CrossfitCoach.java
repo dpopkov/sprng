@@ -7,8 +7,18 @@ import org.springframework.stereotype.Component;
 public class CrossfitCoach implements Coach {
     private FortuneService fortuneService;
 
-    @Autowired
+    public CrossfitCoach() {
+        System.out.println("CrossfitCoach: within default constructor");
+    }
+
+    /*@Autowired
     public CrossfitCoach(FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
+    }*/
+
+    @Autowired
+    public void anyNonSetterNameMayBeUsedForDependencyInjection(FortuneService fortuneService) {
+        System.out.println("CrossfitCoach: within method anyNonSetterNameMayBeUsedForDependencyInjection");
         this.fortuneService = fortuneService;
     }
 

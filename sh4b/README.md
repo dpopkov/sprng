@@ -8,6 +8,7 @@ sh4b - Spring & Hibernate for Beginners
 * Add @Component annotation with bean-id to bean classes.
 * Using Default Component names.
 * Autowiring for Constructor injection.
+* Autowiring for Setter (or any method) injection.
 
 ### 1 - [spring-demo-one](springdemoone)
 
