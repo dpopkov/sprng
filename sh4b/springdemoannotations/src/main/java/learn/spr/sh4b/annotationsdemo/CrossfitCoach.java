@@ -3,9 +3,9 @@ package learn.spr.sh4b.annotationsdemo;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TennisCoach implements Coach {
+public class CrossfitCoach implements Coach {
     @Override
     public String getDailyWorkout() {
-        return "Practice your backhand volley";
+        return "Do 1000 push ups";
     }
 }
