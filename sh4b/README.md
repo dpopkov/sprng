@@ -15,6 +15,7 @@ sh4b - Spring & Hibernate for Beginners
 * Using Bean Lifecycle Method annotations (@PostConstruct, @PreDestroy).
 * Spring config with Java code (no XML).
 * Defining Spring Beans with Java code (no XML).
+* Injecting Values from Properties files using @PropertySource and @Value annotations.
 
 ### 1 - [spring-demo-one](springdemoone)
 
