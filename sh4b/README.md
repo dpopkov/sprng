@@ -14,6 +14,7 @@ sh4b - Spring & Hibernate for Beginners
 * Using @Scope annotation (singleton, prototype).
 * Using Bean Lifecycle Method annotations (@PostConstruct, @PreDestroy).
 * Spring config with Java code (no XML).
+* Defining Spring Beans with Java code (no XML).
 
 ### 1 - [spring-demo-one](springdemoone)
 
