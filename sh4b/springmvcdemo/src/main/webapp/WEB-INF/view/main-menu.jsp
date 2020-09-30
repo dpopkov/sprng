@@ -11,5 +11,7 @@
 <hr/>
 <p><a href="hello/showForm">Show Form</a></p>
 
+<p><a href="student/showForm">Show Student Form</a></p>
+
 </body>
 </html>

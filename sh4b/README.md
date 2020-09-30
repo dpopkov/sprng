@@ -12,6 +12,7 @@ sh4b - Spring & Hibernate for Beginners
 * Adding Data to Model.
 * Binding Request Parameters with @RequestParam annotation.
 * Controller Request Mapping.
+* Use Form Text Fields and Data Binding with @ModelAttribute annotation.
 
 ### 2 - [spring-demo-annotations](springdemoannotations)
 
