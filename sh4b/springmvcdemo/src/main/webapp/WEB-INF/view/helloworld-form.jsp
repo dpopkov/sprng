@@ -8,7 +8,7 @@
 
 <div>
     <h3>Process Form</h3>
-    <form action="processForm" method="GET">
+    <form action="${pageContext.request.contextPath}/hello/processForm" method="GET">
         <label>
             Name:
             <input type="text" name="studentName" placeholder="What's your name?"/>
@@ -19,7 +19,7 @@
 
 <div>
     <h3>Process Form ver.2</h3>
-    <form action="processFormVersionTwo" method="GET">
+    <form action="${pageContext.request.contextPath}/hello/processFormVersionTwo" method="GET">
         <label>
             Name:
             <input type="text" name="studentName" placeholder="What's your name?"/>
@@ -30,7 +30,7 @@
 
 <div>
     <h3>Process Form ver.3</h3>
-    <form action="processFormVersionThree" method="GET">
+    <form action="${pageContext.request.contextPath}/hello/processFormVersionThree" method="GET">
         <label>
             Name:
             <input type="text" name="studentName" placeholder="What's your name?"/>
