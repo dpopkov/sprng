@@ -4,9 +4,10 @@ sh4b - Spring & Hibernate for Beginners
 ### 3 - [spring-mvc-demo](springmvcdemo)
 
 #### Spring MVC - Building Spring Web Apps
-* Configure dispatcher servlet and contextConfigLocation in web.xml.
+* Configure a dispatcher servlet and contextConfigLocation in web.xml.
 * Enable Component Scanning in context config file (context:component-scan).
 * Configure Spring Bean for view resolver.
+* Creating Controllers and Views.
 
 ### 2 - [spring-demo-annotations](springdemoannotations)
 
