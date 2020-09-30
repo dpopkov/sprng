@@ -28,5 +28,16 @@
     </form>
 </div>
 
+<div>
+    <h3>Process Form ver.3</h3>
+    <form action="processFormVersionThree" method="GET">
+        <label>
+            Name:
+            <input type="text" name="studentName" placeholder="What's your name?"/>
+        </label>
+        <input type="submit"/>
+    </form>
+</div>
+
 </body>
 </html>
