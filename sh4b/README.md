@@ -8,6 +8,8 @@ sh4b - Spring & Hibernate for Beginners
 * Enable Component Scanning in context config file (context:component-scan).
 * Configure Spring Bean for view resolver.
 * Creating Controllers and Views.
+* Reading Form Data.
+* Adding Data to Model.
 
 ### 2 - [spring-demo-annotations](springdemoannotations)
 
