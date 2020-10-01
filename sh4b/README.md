@@ -13,6 +13,7 @@ sh4b - Spring & Hibernate for Beginners
 * Binding Request Parameters with @RequestParam annotation.
 * Controller Request Mapping.
 * Use Form Text Fields and Data Binding with @ModelAttribute annotation.
+* Use Form Drop-Down Lists, RadioButtons and Checkboxes.
 
 ### 2 - [spring-demo-annotations](springdemoannotations)
 
