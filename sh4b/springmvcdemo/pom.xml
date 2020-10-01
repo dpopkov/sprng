@@ -18,6 +18,7 @@
         <spring.version>5.2.9.RELEASE</spring.version>
         <servlet-api.version>4.0.1</servlet-api.version>
         <jstl.version>1.2</jstl.version>
+        <hibernate.validator.version>6.1.6.Final</hibernate.validator.version>
     </properties>
 
     <dependencies>
@@ -40,6 +41,12 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>${jstl.version}</version>
+        </dependency>
+        <!-- Hibernate Validator -->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate.validator.version}</version>
         </dependency>
     </dependencies>
 
