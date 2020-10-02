@@ -16,6 +16,7 @@ sh4b - Spring & Hibernate for Beginners
 * Use Form Drop-Down Lists, RadioButtons and Checkboxes.
 * Spring MVC Form Validation - applying Hibernate Validator and @InitBinder annotation.
 * Validating Number Ranges using @Min, @Max annotations.
+* Validating with Regular Expressions using @Pattern annotation.
 
 ### 2 - [spring-demo-annotations](springdemoannotations)
 
