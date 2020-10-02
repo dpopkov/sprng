@@ -18,6 +18,7 @@ sh4b - Spring & Hibernate for Beginners
 * Validating Number Ranges using @Min, @Max annotations.
 * Validating with Regular Expressions using @Pattern annotation.
 * Make Integer field required, add custom messages.
+* Creating Custom Validation Rule Annotation.
 
 ### 2 - [spring-demo-annotations](springdemoannotations)
 

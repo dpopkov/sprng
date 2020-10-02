@@ -1,5 +1,7 @@
 package learn.spr.sh4b.springmvcdemo;
 
+import learn.spr.sh4b.springmvcdemo.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -16,6 +18,9 @@ public class Customer {
 
     @Pattern(regexp="^[a-zA-Z0-9]{5}$", message="only 5 chars/digits")
     private String postalCode;
+
+    @CourseCode
+    private String courseCode;
 
     public Customer() {
     }
@@ -52,6 +57,14 @@ public class Customer {
         this.postalCode = postalCode;
     }
 
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
+    }
+
     @Override
     public String toString() {
         return "Customer{" +
@@ -59,6 +72,7 @@ public class Customer {
                 ", lastName='" + lastName + '\'' +
                 ", freePasses=" + freePasses +
                 ", postalCode='" + postalCode + '\'' +
+                ", courseCode='" + courseCode + '\'' +
                 '}';
     }
 }
