@@ -10,6 +10,7 @@
 
 <p>First Name: ${customer.firstName}</p>
 <p>Last Name: ${customer.lastName}</p>
+<p>Free Passes: ${customer.freePasses}</p>
 
 </body>
 </html>
