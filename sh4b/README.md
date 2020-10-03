@@ -5,7 +5,8 @@ sh4b - Spring & Hibernate for Beginners
 
 #### Hibernate
 * Setup and test JDBC connection.
-
+* Create configuration file - hibernate.cfg.xml.
+* Use Annotations for mapping, Create and Save Entities.
 
 ### 3 - [spring-mvc-demo](springmvcdemo)
 
