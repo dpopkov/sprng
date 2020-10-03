@@ -1,6 +1,12 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 4 - [hibernate-tutorial](hibernatetutor)
+
+#### Hibernate
+* Setup and test JDBC connection.
+
+
 ### 3 - [spring-mvc-demo](springmvcdemo)
 
 #### Spring MVC - Building Spring Web Apps
