@@ -9,6 +9,7 @@ sh4b - Spring & Hibernate for Beginners
 * Use Annotations for mapping, Create and Save Entities.
 * Retrieve Entities using the primary key.
 * Query Entities using HQL.
+* Update and Delete Entities.
 
 ### 3 - [spring-mvc-demo](springmvcdemo)
 
