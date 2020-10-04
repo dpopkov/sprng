@@ -1,6 +1,10 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 5 - [hb-01-one-to-one-uni](hb01onetooneuni)
+
+#### Hibernate Mapping
+
 ### 4 - [hibernate-tutorial](hibernatetutor)
 
 #### Hibernate
