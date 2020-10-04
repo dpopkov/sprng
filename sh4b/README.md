@@ -4,6 +4,7 @@ sh4b - Spring & Hibernate for Beginners
 ### 5 - [hb-01-one-to-one-uni](hb01onetooneuni)
 
 #### Hibernate Mapping
+* Use @OneToOne and @JoinColumn annotations for linking relative Entity.
 
 ### 4 - [hibernate-tutorial](hibernatetutor)
 
