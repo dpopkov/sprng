@@ -5,6 +5,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.Date;
+
 public class PrimaryKeyDemo {
     /*
     How to change the starting value of the primary key:
@@ -21,9 +23,9 @@ public class PrimaryKeyDemo {
         try (Session session = factory.getCurrentSession()) {
             session.beginTransaction();
 
-            Student student1 = new Student("Jane", "Snow", "janesnow@example.org");
-            Student student2 = new Student("Mary", "Public", "mary@example.org");
-            Student student3 = new Student("James", "Private", "james@example.org");
+            Student student1 = new Student("Jane", "Snow", "janesnow@example.org", new Date());
+            Student student2 = new Student("Mary", "Public", "mary@example.org", new Date());
+            Student student3 = new Student("James", "Private", "james@example.org", new Date());
 
             session.save(student1);
             session.save(student2);

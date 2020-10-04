@@ -5,6 +5,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.Date;
+
 public class ReadStudentDemo {
     public static void main(String[] args) {
         SessionFactory factory = new Configuration()
@@ -15,7 +17,7 @@ public class ReadStudentDemo {
         try (Session session = factory.getCurrentSession()) {
             session.beginTransaction();
 
-            savedStudent = new Student("Daffy", "Duck", "daffy2@example.org");
+            savedStudent = new Student("Daffy", "Duck", "daffy2@example.org", new Date());
             session.save(savedStudent);
 
             session.getTransaction().commit();

@@ -5,6 +5,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.Date;
+
 public class CreateStudentDemo {
     public static void main(String[] args) {
         SessionFactory factory = new Configuration()
@@ -12,7 +14,7 @@ public class CreateStudentDemo {
                 .addAnnotatedClass(Student.class)
                 .buildSessionFactory();
         try (Session session = factory.getCurrentSession()) {
-            Student student = new Student("Jane", "Dow", "jane@example.org");
+            Student student = new Student("Jane", "Dow", "jane@example.org", new Date());
             session.beginTransaction();
             session.save(student);
             System.out.println("Saved student.getId() = " + student.getId());

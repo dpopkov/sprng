@@ -10,6 +10,7 @@ sh4b - Spring & Hibernate for Beginners
 * Retrieve Entities using the primary key.
 * Query Entities using HQL.
 * Update and Delete Entities.
+* Handle Dates with Hibernate.
 
 ### 3 - [spring-mvc-demo](springmvcdemo)
 
