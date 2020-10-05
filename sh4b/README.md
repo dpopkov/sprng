@@ -4,6 +4,7 @@ sh4b - Spring & Hibernate for Beginners
 ### 6 - [hb-02-one-to-one-bi](hb02onetoonebi)
 
 #### Hibernate bi-directional OneToOne Mapping
+* Use bi-directional @OneToOne.
 
 ### 5 - [hb-01-one-to-one-uni](hb01onetooneuni)
 
