@@ -6,6 +6,7 @@ sh4b - Spring & Hibernate for Beginners
 #### Hibernate bi-directional OneToOne Mapping
 * Use bi-directional @OneToOne.
 * Delete bi-directional @OneToOne Entity.
+* Delete only one Entity from bi-directional @OneToOne Entities.
 
 ### 5 - [hb-01-one-to-one-uni](hb01onetooneuni)
 

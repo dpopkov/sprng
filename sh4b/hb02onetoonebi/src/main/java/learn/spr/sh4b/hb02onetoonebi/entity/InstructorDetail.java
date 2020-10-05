@@ -16,7 +16,12 @@ public class InstructorDetail {
     @Column(name = "hobby")
     private String hobby;
 
-    @OneToOne(mappedBy="instructorDetail", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "instructorDetail", cascade = {
+            CascadeType.DETACH,
+            CascadeType.PERSIST,
+            CascadeType.MERGE,
+            CascadeType.REFRESH
+    })
     private Instructor instructor;
 
     public InstructorDetail() {
@@ -65,7 +70,7 @@ public class InstructorDetail {
                 "id=" + id +
                 ", youtubeChannel='" + youtubeChannel + '\'' +
                 ", hobby='" + hobby + '\'' +
-                ", instructor.id=" + instructor.getId() +
+                ", instructor.id=" + (instructor != null ? instructor.getId() : "null") +
                 '}';
     }
 }
