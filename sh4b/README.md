@@ -3,7 +3,9 @@ sh4b - Spring & Hibernate for Beginners
 
 ### 7 - [hb-03-one-to-many](hb03onetomany)
 
-#### Hibernate OneToMany Mapping
+#### Hibernate bi-directional OneToMany Mapping
+* Use @OneToMany, @ManyToOne, and @JoinColumn annotations.
+* Delete Entities without cascading.
 
 ### 6 - [hb-02-one-to-one-bi](hb02onetoonebi)
 
