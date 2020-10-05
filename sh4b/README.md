@@ -5,6 +5,7 @@ sh4b - Spring & Hibernate for Beginners
 
 #### Hibernate Mapping
 * Use @OneToOne and @JoinColumn annotations for linking relative Entity.
+* Delete @OneToOne Entities.
 
 ### 4 - [hibernate-tutorial](hibernatetutor)
 
