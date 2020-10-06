@@ -1,6 +1,10 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 10 - [hb-06-many-to-many](hb06manytomany)
+
+#### ManyToMany Mapping
+
 ### 9 - [hb-05-one-to-many-uni](hb05onetomanyuni)
 
 #### Hibernate uni-directional OneToMany Mapping
