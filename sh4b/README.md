@@ -1,6 +1,8 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 8 - [hb-04-eager-vs-lazy-demo)(hb04eagervslazydemo)]
+
 ### 7 - [hb-03-one-to-many](hb03onetomany)
 
 #### Hibernate bi-directional OneToMany Mapping
