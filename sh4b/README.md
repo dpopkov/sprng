@@ -4,6 +4,7 @@ sh4b - Spring & Hibernate for Beginners
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
 #### ManyToMany Mapping
+* Use @ManyToMany, @JoinTable and @JoinColumn annotations.
 
 ### 9 - [hb-05-one-to-many-uni](hb05onetomanyuni)
 
