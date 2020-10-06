@@ -3,6 +3,10 @@ sh4b - Spring & Hibernate for Beginners
 
 ### 8 - [hb-04-eager-vs-lazy-demo)(hb04eagervslazydemo)]
 
+#### Eager vs Lazy Loading (closing Session issue)
+* Get Lazy Entities before closing session.
+* Use HQL JOIN FETCH.
+
 ### 7 - [hb-03-one-to-many](hb03onetomany)
 
 #### Hibernate bi-directional OneToMany Mapping
