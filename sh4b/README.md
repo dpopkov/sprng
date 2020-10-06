@@ -1,7 +1,13 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
-### 8 - [hb-04-eager-vs-lazy-demo)(hb04eagervslazydemo)]
+### 9 - [hb-05-one-to-many-uni](hb05onetomanyuni)
+
+#### Hibernate uni-directional OneToMany Mapping
+* Use @OneToMany and @JoinColumn annotations.
+* Use cascading Saving, Getting and Deletion.
+
+### 8 - [hb-04-eager-vs-lazy-demo](hb04eagervslazydemo)
 
 #### Eager vs Lazy Loading (closing Session issue)
 * Get Lazy Entities before closing session.
