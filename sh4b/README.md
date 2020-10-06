@@ -5,6 +5,7 @@ sh4b - Spring & Hibernate for Beginners
 
 #### ManyToMany Mapping
 * Use @ManyToMany, @JoinTable and @JoinColumn annotations.
+* Delete Entities in ManyToMany without cascading.
 
 ### 9 - [hb-05-one-to-many-uni](hb05onetomanyuni)
 
