@@ -6,6 +6,8 @@ sh4b - Spring & Hibernate for Beginners
 #### Spring MVC and Hibernate Project
 * Configure database dataSource / connection pool.
 * Test Basic Spring MVC Controller.
+* Create Entity. Define Data Access Object (DAO). Use @Repository and @Transactional annotations. 
+* Implement Listing Customers.
 
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
