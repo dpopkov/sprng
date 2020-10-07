@@ -11,6 +11,8 @@ sh4b - Spring & Hibernate for Beginners
 * Add CSS and redirect from the index.jsp to controller.
 * Use @GetMapping and @PostMapping instead of @RequestMapping.
 * Add a Service Layer - define Service with @Service annotation.
+* Create form and processing for Adding Customer to service and DAO.
+* Add sorting in list of customers.
 
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
