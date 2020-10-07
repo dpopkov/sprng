@@ -8,6 +8,7 @@ sh4b - Spring & Hibernate for Beginners
 * Test Basic Spring MVC Controller.
 * Create Entity. Define Data Access Object (DAO). Use @Repository and @Transactional annotations. 
 * Implement Listing Customers.
+* Add CSS and redirect from the index.jsp to controller.
 
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
