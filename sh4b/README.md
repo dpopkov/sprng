@@ -1,6 +1,12 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 11 - [web-customer-tracker](webcustomertracker)
+
+#### Spring MVC and Hibernate Project
+* Configure database dataSource / connection pool.
+* Test Basic Spring MVC Controller.
+
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
 #### ManyToMany Mapping
