@@ -1,0 +1,10 @@
+package learn.spr.sh4b.webcustomertracker.service;
+
+import learn.spr.sh4b.webcustomertracker.entity.Customer;
+
+import java.util.List;
+
+public interface CustomerService {
+
+    List<Customer> getCustomers();
+}

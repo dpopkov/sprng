@@ -1,10 +1,11 @@
 package learn.spr.sh4b.webcustomertracker.controller;
 
-import learn.spr.sh4b.webcustomertracker.dao.CustomerDAO;
 import learn.spr.sh4b.webcustomertracker.entity.Customer;
+import learn.spr.sh4b.webcustomertracker.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -14,11 +15,11 @@ import java.util.List;
 public class CustomerController {
 
     @Autowired
-    private CustomerDAO customerDAO;
+    private CustomerService customerService;
 
-    @RequestMapping("/list")
+    @GetMapping("/list")
     public String listCustomers(Model model) {
-        List<Customer> allCustomers = customerDAO.getCustomers();
+        List<Customer> allCustomers = customerService.getCustomers();
         model.addAttribute("allCustomers", allCustomers);
         return "list-customers";
     }

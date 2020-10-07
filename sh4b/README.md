@@ -9,6 +9,8 @@ sh4b - Spring & Hibernate for Beginners
 * Create Entity. Define Data Access Object (DAO). Use @Repository and @Transactional annotations. 
 * Implement Listing Customers.
 * Add CSS and redirect from the index.jsp to controller.
+* Use @GetMapping and @PostMapping instead of @RequestMapping.
+* Add a Service Layer - define Service with @Service annotation.
 
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
