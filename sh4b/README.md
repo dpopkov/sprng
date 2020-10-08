@@ -1,6 +1,11 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 12 - [spring-demo-aop](springdemoaop)
+
+#### Spring AOP Example Project
+* Create basic demo w/o AOP 
+
 ### 11 - [web-customer-tracker](webcustomertracker)
 
 #### Spring MVC and Hibernate Project
