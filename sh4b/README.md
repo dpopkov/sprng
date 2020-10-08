@@ -13,6 +13,7 @@ sh4b - Spring & Hibernate for Beginners
 * Add a Service Layer - define Service with @Service annotation.
 * Create form and processing for Adding Customer to service and DAO.
 * Add sorting in list of customers.
+* Create a link and processing for Updating Customer.
 
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 

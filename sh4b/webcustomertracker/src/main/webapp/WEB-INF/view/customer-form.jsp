@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Customer</title>
+    <title>Save Customer</title>
     <link type="text/css" rel="stylesheet"
           href="${pageContext.request.contextPath}/resources/css/style.css">
     <link type="text/css" rel="stylesheet"
@@ -22,6 +22,7 @@
         <h2>Save Customer</h2>
 
         <form:form action="saveCustomer" modelAttribute="customer" method="POST">
+            <form:hidden path="id" />
             <table>
                 <tbody>
                 <tr>
