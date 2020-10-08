@@ -14,6 +14,7 @@ sh4b - Spring & Hibernate for Beginners
 * Create form and processing for Adding Customer to service and DAO.
 * Add sorting in list of customers.
 * Create a link and processing for Updating Customer.
+* Create a link and processing for Deleting Customer.
 
 ### 10 - [hb-06-many-to-many](hb06manytomany)
 
