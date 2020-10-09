@@ -12,12 +12,21 @@ public class MyDemoLoggingAspect {
     @Pointcut("execution(* learn.spr.sh4b.springdemoaoppointcutdeclarations.dao.*.*(..))")
     private void daoPackage() {}
 
-    @Before("daoPackage()")
+    @Pointcut("execution(* learn.spr.sh4b.springdemoaoppointcutdeclarations.dao.*.get*())")
+    private void getter() {}
+
+    @Pointcut("execution(void learn.spr.sh4b.springdemoaoppointcutdeclarations.dao.*.set*(*))")
+    private void setter() {}
+
+    @Pointcut("daoPackage() && !(getter() || setter())")
+    private void daoPackageNoGetterSetter() {}
+
+    @Before("daoPackageNoGetterSetter()")
     public void beforeAnyInPackage() {
         System.out.println("\n======>>> Executing @Before advice on any method in package");
     }
 
-    @Before("daoPackage()")
+    @Before("daoPackageNoGetterSetter()")
     public void performApiAnalytics() {
         System.out.println("\n======>>> Performing API analytics");
     }

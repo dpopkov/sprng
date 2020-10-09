@@ -1,10 +1,11 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
-### 13 - [springdemoaoppointcutdeclarations](springdemoaoppointcutdeclarations)
+### 13 - [spring-demo-aop-pointcut-declarations](springdemoaoppointcutdeclarations)
 
 #### Spring AOP Pointcut declarations
 * Use Pointcut declarations.
+* Combine Pointcuts using logical operators (&&, ||, !).
 
 ### 12 - [spring-demo-aop](springdemoaop)
 
