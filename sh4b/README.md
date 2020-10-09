@@ -1,6 +1,11 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 14 - [springdemoaoporderaspects](springdemoaoporderaspects)
+
+### Spring AOP Aspects Ordering
+* Control Aspect Order using @Order annotation.
+
 ### 13 - [spring-demo-aop-pointcut-declarations](springdemoaoppointcutdeclarations)
 
 #### Spring AOP Pointcut declarations
