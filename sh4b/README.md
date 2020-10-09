@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Create basic demo w/o AOP
 * Create an Aspect with @Before advice.
 * Use Pointcut expressions matching any class.
+* Use Pointcut expressions with wildcards.
 
 ### 11 - [web-customer-tracker](webcustomertracker)
 
