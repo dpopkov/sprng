@@ -9,6 +9,7 @@ sh4b - Spring & Hibernate for Beginners
 * Use Pointcut expressions matching any class.
 * Use Pointcut expressions with wildcards.
 * Use Pointcut expressions with parameters.
+* Use Pointcut expressions for package.
 
 ### 11 - [web-customer-tracker](webcustomertracker)
 

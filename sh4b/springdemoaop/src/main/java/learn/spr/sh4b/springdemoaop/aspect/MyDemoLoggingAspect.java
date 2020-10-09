@@ -13,4 +13,9 @@ public class MyDemoLoggingAspect {
     public void beforeAddAccountAdvice() {
         System.out.println("\n======>>> Executing @Before advice on method");
     }
+
+    @Before("execution(* learn.spr.sh4b.springdemoaop.dao.*.*(..))")
+    public void beforeAnyInPackage() {
+        System.out.println("\n======>>> Executing @Before advice on any method in package");
+    }
 }
