@@ -8,6 +8,7 @@ sh4b - Spring & Hibernate for Beginners
 * Create an Aspect with @Before advice.
 * Use Pointcut expressions matching any class.
 * Use Pointcut expressions with wildcards.
+* Use Pointcut expressions with parameters.
 
 ### 11 - [web-customer-tracker](webcustomertracker)
 
