@@ -6,6 +6,7 @@ sh4b - Spring & Hibernate for Beginners
 #### Spring AOP Example Project
 * Create basic demo w/o AOP
 * Create an Aspect with @Before advice.
+* Use Pointcut expressions matching any class.
 
 ### 11 - [web-customer-tracker](webcustomertracker)
 
