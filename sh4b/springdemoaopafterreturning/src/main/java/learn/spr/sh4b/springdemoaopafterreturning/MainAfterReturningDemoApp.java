@@ -18,6 +18,8 @@ public class MainAfterReturningDemoApp {
             System.out.println(accounts);
         } catch (Exception exc) {
             System.out.println("\n\nMain Program caught exception: " + exc);
+        } finally {
+            System.out.println("\nMain Program block finally.");
         }
 
         context.close();

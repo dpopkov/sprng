@@ -54,6 +54,12 @@ public class MyDemoLoggingAspect {
         System.out.println("======>>> the exception is: " + theException);
     }
 
+    @After("executionOfFindAccounts()")
+    public void afterFinallyFindAccountsAdvice(JoinPoint joinPoint) {
+        String method = joinPoint.getSignature().toShortString();
+        System.out.println("\n======>>> Executing @After (finally) on method: " + method);
+    }
+
     private void convertNamesToUpperCase(List<Account> accounts) {
         for (Account acc : accounts) {
             acc.setName(acc.getName().toUpperCase());

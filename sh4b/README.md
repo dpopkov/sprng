@@ -5,6 +5,7 @@ sh4b - Spring & Hibernate for Beginners
 * @AfterReturning Advice.
 * Use @AfterReturning for post-processing data.
 * Use @AfterThrowing Advice for processing exceptions.
+* @After (finally) Advice.
 
 ### 14 - [spring-demo-aop-order-aspects](springdemoaoporderaspects)
 
