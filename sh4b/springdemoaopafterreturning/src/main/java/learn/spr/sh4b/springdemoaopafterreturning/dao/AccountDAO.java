@@ -9,7 +9,10 @@ import java.util.List;
 @Component
 public class AccountDAO {
 
-    public List<Account> findAccounts() {
+    public List<Account> findAccounts(boolean tripWire) {
+        if (tripWire) {
+            throw new RuntimeException("Failed to find accounts");
+        }
         ArrayList<Account> accounts = new ArrayList<>();
         accounts.add(new Account("John", "Silver"));
         accounts.add(new Account("Jane", "Draper"));

@@ -2,10 +2,7 @@ package learn.spr.sh4b.springdemoaopafterreturning.aspect;
 
 import learn.spr.sh4b.springdemoaopafterreturning.Account;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
@@ -40,11 +37,21 @@ public class MyDemoLoggingAspect {
     public void afterReturningFindAccountsAdvice(JoinPoint joinPoint, List<Account> resultList) {
         String method = joinPoint.getSignature().toShortString();
         System.out.println("\n======>>> Executing @AfterReturning on method: " + method);
-        System.out.println("\n======>>> result is: " + resultList);
+        System.out.println("======>>> result is: " + resultList);
 
         // Post-processing the data
         convertNamesToUpperCase(resultList);
         System.out.println("\n======>>> result is: " + resultList);
+    }
+
+    @AfterThrowing(
+            pointcut = "executionOfFindAccounts()",
+            throwing = "theException"
+    )
+    public void afterThrowingFindAccountsAdvice(JoinPoint joinPoint, Exception theException) {
+        String method = joinPoint.getSignature().toShortString();
+        System.out.println("\n======>>> Executing @AfterThrowing on method: " + method);
+        System.out.println("======>>> the exception is: " + theException);
     }
 
     private void convertNamesToUpperCase(List<Account> accounts) {

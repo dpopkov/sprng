@@ -10,10 +10,15 @@ public class MainAfterReturningDemoApp {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
         AccountDAO accountDAO = context.getBean(AccountDAO.class);
 
-        List<Account> accounts = accountDAO.findAccounts();
-        System.out.println("\nMain Program: MainAfterReturningDemoApp");
-        System.out.println("----------------");
-        System.out.println(accounts);
+        try {
+            final boolean tripWire = true;
+            List<Account> accounts = accountDAO.findAccounts(tripWire);
+            System.out.println("\nMain Program: MainAfterReturningDemoApp");
+            System.out.println("----------------");
+            System.out.println(accounts);
+        } catch (Exception exc) {
+            System.out.println("\n\nMain Program caught exception: " + exc);
+        }
 
         context.close();
     }
