@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Use @Around Advice.
 * Resolve Print Order Issue - use same logger output.
 * @Around Advice - handle exceptions.
+* @Around Advice - rethrowing exceptions.
 
 ### 15 - [spring-demo-aop-after-returning](springdemoaopafterreturning)\
 
