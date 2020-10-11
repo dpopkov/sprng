@@ -3,6 +3,8 @@ sh4b - Spring & Hibernate for Beginners
 
 ### 17 - [web-customer-tracker-aop](webcustomertrackeraop)
 
+#### Add AOP logging to Spring MVC App
+
 ### 16 - [spring-demo-aop-around](springdemoaoparound)
 
 #### @Around
