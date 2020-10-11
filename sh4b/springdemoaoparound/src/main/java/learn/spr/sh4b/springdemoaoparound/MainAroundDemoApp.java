@@ -15,7 +15,8 @@ public class MainAroundDemoApp {
         log.info("\nMain Program: MainAroundDemoApp");
         log.info("Calling getFortune");
 
-        String data = service.getFortune();
+        final boolean tripWire = true;
+        String data = service.getFortune(tripWire);
         log.info("My fortune is: " + data);
         log.info("Finished");
 

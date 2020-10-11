@@ -19,7 +19,14 @@ public class MyDemoLoggingAspect {
         String method = joinPoint.getSignature().toShortString();
         log.info("\n======>>> Executing @Around on method " + method);
         long begin = System.currentTimeMillis();
-        Object result = joinPoint.proceed();
+
+        Object result;
+        try {
+            result = joinPoint.proceed();
+        } catch (Exception e) {
+            log.warning(e.getMessage());
+            result = "Major accident! But no worries, everything will be OK";
+        }
         long end = System.currentTimeMillis();
         long duration = end - begin;
         log.info("======>>> Duration = " + duration / 1000 + " seconds");
