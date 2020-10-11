@@ -4,6 +4,8 @@ sh4b - Spring & Hibernate for Beginners
 ### 17 - [web-customer-tracker-aop](webcustomertrackeraop)
 
 #### Add AOP logging to Spring MVC App
+* Use @Before to add logging to application flow.
+* Use @AfterReturning to add logging.
 
 ### 16 - [spring-demo-aop-around](springdemoaoparound)
 
