@@ -4,9 +4,12 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
+import java.util.logging.Logger;
+
 @Aspect
 @Component
 public class MyDemoLoggingAspect {
+    private static final Logger log = Logger.getLogger(MyDemoLoggingAspect.class.getName());
 
     @Pointcut("execution(* learn.spr.sh4b.springdemoaoparound.service.TrafficFortuneService.getFortune(..))")
     private void executionOfGetFortune() {}
@@ -14,12 +17,12 @@ public class MyDemoLoggingAspect {
     @Around("executionOfGetFortune()")
     public Object aroundGetFortune(ProceedingJoinPoint joinPoint) throws Throwable {
         String method = joinPoint.getSignature().toShortString();
-        System.out.println("\n======>>> Executing @Around on method " + method);
+        log.info("\n======>>> Executing @Around on method " + method);
         long begin = System.currentTimeMillis();
         Object result = joinPoint.proceed();
         long end = System.currentTimeMillis();
         long duration = end - begin;
-        System.out.println("======>>> Duration = " + duration / 1000 + " seconds");
+        log.info("======>>> Duration = " + duration / 1000 + " seconds");
         return result;
     }
 }
