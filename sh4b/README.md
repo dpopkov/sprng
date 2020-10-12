@@ -1,6 +1,11 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 18 - [spring-security-demo](springsecuritydemo)
+
+#### Spring Security - Getting Started
+
+
 ### 17 - [web-customer-tracker-aop](webcustomertrackeraop)
 
 #### Add AOP logging to Spring MVC App
