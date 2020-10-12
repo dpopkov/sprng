@@ -4,7 +4,7 @@ sh4b - Spring & Hibernate for Beginners
 ### 18 - [spring-security-demo](springsecuritydemo)
 
 #### Spring Security - Getting Started
-
+* Use Java Configuration with AbstractAnnotationConfigDispatcherServletInitializer (no web.xml).
 
 ### 17 - [web-customer-tracker-aop](webcustomertrackeraop)
 
