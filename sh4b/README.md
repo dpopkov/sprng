@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Spring Security config with AbstractSecurityWebApplicationInitializer.
 * Add Custom Login Form.
 * Show Login Error Message.
+* Add Bootstrap CSS to Login Form.
 
 ### 18 - [spring-security-demo](springsecuritydemo)
 
