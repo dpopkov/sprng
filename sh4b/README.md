@@ -1,6 +1,8 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 20 - [spring-security-demo-06-csrf](springsecuritydemo06csrf)
+
 ### 19 - [spring-security-demo-02-basic](springsecuritydemo02basic)
 
 #### Spring Security - Create Security Initializer
