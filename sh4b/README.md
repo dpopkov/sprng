@@ -5,6 +5,7 @@ sh4b - Spring & Hibernate for Beginners
 
 #### User Roles
 * Display user IDs and Roles.
+* Restrict access based on Roles.
 
 ### 20 - [spring-security-demo-06-csrf](springsecuritydemo06csrf)
 
