@@ -3,6 +3,8 @@ sh4b - Spring & Hibernate for Beginners
 
 ### 21 - [spring-security-demo-07-user-roles](springsecuritydemo07userroles)
 
+#### User Roles
+* Display user IDs and Roles.
 
 ### 20 - [spring-security-demo-06-csrf](springsecuritydemo06csrf)
 
