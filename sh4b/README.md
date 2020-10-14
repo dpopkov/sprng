@@ -1,6 +1,8 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 22 - [spring-security-demo-08-jdbc-plain](springsecuritydemo08jdbcplain)
+
 ### 21 - [spring-security-demo-07-user-roles](springsecuritydemo07userroles)
 
 #### User Roles
