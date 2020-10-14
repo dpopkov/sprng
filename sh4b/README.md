@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Display user IDs and Roles.
 * Restrict access based on Roles.
 * Add custom 'Access Denied' page.
+* Display content based on Roles.
 
 ### 20 - [spring-security-demo-06-csrf](springsecuritydemo06csrf)
 
