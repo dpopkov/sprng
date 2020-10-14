@@ -1,6 +1,13 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 23 - [jackson-databind-json-demo](jacksondatabindjsondemo)
+
+### JSON Data Binding
+* Read JSON to POJO.
+* Process nested objects and arrays.
+* Ignore unknown JSON properties.
+
 ### 22 - [spring-security-demo-08-jdbc-plain](springsecuritydemo08jdbcplain)
 
 #### JDBC Database Authentication
