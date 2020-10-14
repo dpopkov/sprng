@@ -20,6 +20,9 @@
         <jstl.version>1.2</jstl.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <junit.version>4.13.1</junit.version>
+        <mysql-connector.version>8.0.21</mysql-connector.version>
+        <c3p0.version>0.9.5.5</c3p0.version>
+        <log4j.version>2.13.3</log4j.version>
     </properties>
 
     <dependencies>
@@ -80,6 +83,27 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- MySQL Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector.version}</version>
+        </dependency>
+
+        <!-- External Connection Pool -->
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>${c3p0.version}</version>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
 

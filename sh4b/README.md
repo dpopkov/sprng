@@ -3,6 +3,12 @@ sh4b - Spring & Hibernate for Beginners
 
 ### 22 - [spring-security-demo-08-jdbc-plain](springsecuritydemo08jdbcplain)
 
+#### JDBC Database Authentication
+* Create sql schema, add db properties.
+* Use @PropertySource annotation and org.springframework.core.env.Environment to read properties.  
+* Define and configure DataSource.
+* Update Spring Security Configuration to use JDBC.
+
 ### 21 - [spring-security-demo-07-user-roles](springsecuritydemo07userroles)
 
 #### User Roles
