@@ -8,6 +8,7 @@ sh4b - Spring & Hibernate for Beginners
 * Use @PropertySource annotation and org.springframework.core.env.Environment to read properties.  
 * Define and configure DataSource.
 * Update Spring Security Configuration to use JDBC.
+* Apply Password Encryption.
 
 ### 21 - [spring-security-demo-07-user-roles](springsecuritydemo07userroles)
 
