@@ -12,6 +12,7 @@ sh4b - Spring & Hibernate for Beginners
 #### Sprint REST Exception Handling
 * Spring REST exception handling using @ExceptionHandler annotation.
 * Add generic exception handler.
+* Implement global exception handling using @ControllerAdvice.
 
 ### 23 - [jackson-databind-json-demo](jacksondatabindjsondemo)
 
