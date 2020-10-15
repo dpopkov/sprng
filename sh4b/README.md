@@ -6,6 +6,7 @@ sh4b - Spring & Hibernate for Beginners
 #### Spring REST
 * Simple REST Controller using @RestController annotation.
 * Use Postman for testing.
+* Retrieve POJO as JSON - implement REST Controller returning list of students.
 
 ### 23 - [jackson-databind-json-demo](jacksondatabindjsondemo)
 
