@@ -1,6 +1,10 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 25 - [spring-crm-rest](springcrmrestdemo)
+
+#### CRM REST Application
+
 ### 24 - [spring-rest-demo](sprinrestdemo)
 
 #### Spring REST
