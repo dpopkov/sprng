@@ -1,9 +1,15 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 24 - [spring-rest-demo](sprinrestdemo)
+
+#### Spring REST
+* Simple REST Controller using @RestController annotation.
+* Use Postman for testing.
+
 ### 23 - [jackson-databind-json-demo](jacksondatabindjsondemo)
 
-### JSON Data Binding
+#### JSON Data Binding
 * Read JSON to POJO.
 * Process nested objects and arrays.
 * Ignore unknown JSON properties.
