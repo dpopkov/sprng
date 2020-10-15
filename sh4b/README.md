@@ -8,6 +8,10 @@ sh4b - Spring & Hibernate for Beginners
 * Use Postman for testing.
 * Retrieve POJO as JSON - implement REST Controller returning list of students.
 * Use @PathVariable for REST endpoints.
+  
+#### Sprint REST Exception Handling
+* Spring REST exception handling using @ExceptionHandler annotation.
+* Add generic exception handler.
 
 ### 23 - [jackson-databind-json-demo](jacksondatabindjsondemo)
 
