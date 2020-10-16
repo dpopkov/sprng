@@ -5,6 +5,8 @@ sh4b - Spring & Hibernate for Beginners
 
 #### CRM REST Application
 * Add configuration, DAO and Service. 
+* Create REST Controller.
+* Get list of customers, get a single customer.
 
 ### 24 - [spring-rest-demo](sprinrestdemo)
 
