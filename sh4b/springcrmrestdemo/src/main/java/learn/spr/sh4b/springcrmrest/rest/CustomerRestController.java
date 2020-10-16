@@ -3,10 +3,7 @@ package learn.spr.sh4b.springcrmrest.rest;
 import learn.spr.sh4b.springcrmrest.entity.Customer;
 import learn.spr.sh4b.springcrmrest.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,6 +25,20 @@ public class CustomerRestController {
         if (customer == null) {
             throw new CustomerNotFoundException("Customer id not found - " + customerId);
         }
+        return customer;
+    }
+
+    @PostMapping("/customers")
+    public Customer addCustomer(@RequestBody Customer customer) {
+        // set id to null to force a save of the new item instead of update
+        customer.setId(null);
+        customerService.saveCustomer(customer);
+        return customer;
+    }
+
+    @PutMapping("/customers")
+    public Customer updateCustomer(@RequestBody Customer customer) {
+        customerService.saveCustomer(customer);
         return customer;
     }
 }

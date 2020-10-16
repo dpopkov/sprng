@@ -8,6 +8,7 @@ sh4b - Spring & Hibernate for Beginners
 * Create REST Controller.
 * Get list of customers, get a single customer.
 * Add exception handling.
+* Implement adding and updating customer with RequestBody annotation.
 
 ### 24 - [spring-rest-demo](sprinrestdemo)
 
