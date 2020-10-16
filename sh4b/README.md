@@ -9,6 +9,7 @@ sh4b - Spring & Hibernate for Beginners
 * Get list of customers, get a single customer.
 * Add exception handling.
 * Implement adding and updating customer with RequestBody annotation.
+* Implement deleting customer.
 
 ### 24 - [spring-rest-demo](sprinrestdemo)
 
