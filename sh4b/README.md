@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Add configuration, DAO and Service. 
 * Create REST Controller.
 * Get list of customers, get a single customer.
+* Add exception handling.
 
 ### 24 - [spring-rest-demo](sprinrestdemo)
 
