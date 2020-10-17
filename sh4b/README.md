@@ -6,6 +6,9 @@ sh4b - Spring & Hibernate for Beginners
 #### Spring Boot
 * Use Spring Initializr to create base Spring Boot project.
 * Add Spring Boot Dev Tools.
+* Spring Boot Actuator to manage, check health, and access application metrics 
+  (/health, /info, /auditevents, /beans, /mappings).
+* Apply the simplest Security for Actuator endpoints (it generates password).
 
 ### 25 - [spring-crm-rest](springcrmrestdemo)
 
