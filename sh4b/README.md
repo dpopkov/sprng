@@ -1,6 +1,11 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 26 - [spring-boot-demo](springbootdemo)
+
+#### Spring Boot
+* Use Spring Initializr to create base Spring Boot project.
+
 ### 25 - [spring-crm-rest](springcrmrestdemo)
 
 #### CRM REST Application
