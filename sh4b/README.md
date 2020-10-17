@@ -9,6 +9,7 @@ sh4b - Spring & Hibernate for Beginners
 * Spring Boot Actuator to manage, check health, and access application metrics 
   (/health, /info, /auditevents, /beans, /mappings).
 * Apply the simplest Security for Actuator endpoints (it generates password).
+* Add custom application properties using Value annotation.
 
 ### 25 - [spring-crm-rest](springcrmrestdemo)
 
