@@ -12,4 +12,14 @@ public class FunRestController {
     public String hello() {
         return "Hello World! Current time on server is " + LocalDateTime.now();
     }
+
+    @GetMapping("/workout")
+    public String getDailyWorkout() {
+        return "Run hard 7k!";
+    }
+
+    @GetMapping("/fortune")
+    public String getFortune() {
+        return "Today is you lucky day!";
+    }
 }
