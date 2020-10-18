@@ -1,6 +1,9 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 27 - [crud-demo](cruddemo)
+
+
 ### 26 - [spring-boot-demo](springbootdemo)
 
 #### Spring Boot
