@@ -10,6 +10,7 @@ sh4b - Spring & Hibernate for Beginners
   (/health, /info, /auditevents, /beans, /mappings).
 * Apply the simplest Security for Actuator endpoints (it generates password).
 * Add custom application properties using Value annotation.
+* Configuring server in application.properties.
 
 ### 25 - [spring-crm-rest](springcrmrestdemo)
 
