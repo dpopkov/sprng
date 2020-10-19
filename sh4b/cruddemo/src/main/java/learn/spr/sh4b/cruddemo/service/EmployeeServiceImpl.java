@@ -1,8 +1,10 @@
 package learn.spr.sh4b.cruddemo.service;
 
 import learn.spr.sh4b.cruddemo.dao.EmployeeDAO;
+import learn.spr.sh4b.cruddemo.dao.EmployeeDAOJpaImpl;
 import learn.spr.sh4b.cruddemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,7 +16,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     private final EmployeeDAO employeeDAO;
 
     @Autowired
-    public EmployeeServiceImpl(EmployeeDAO employeeDAO) {
+    public EmployeeServiceImpl(@Qualifier(value = "employeeDAOJpaImpl")EmployeeDAO employeeDAO) {
         this.employeeDAO = employeeDAO;
     }
 

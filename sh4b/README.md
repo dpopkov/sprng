@@ -7,6 +7,7 @@ sh4b - Spring & Hibernate for Beginners
 * Integrate Hibernate and JPA
 * Use Entity Manager but leverage native Hibernate API
 * Add service layer, implement adding, updating and deleting of Entities.
+* Use Entity Manager and standard JPA API.
 
 ### 26 - [spring-boot-demo](springbootdemo)
 
