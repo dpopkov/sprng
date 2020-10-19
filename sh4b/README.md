@@ -6,6 +6,7 @@ sh4b - Spring & Hibernate for Beginners
 #### Spring Boot - Build a REST CRUD API
 * Integrate Hibernate and JPA
 * Use Entity Manager but leverage native Hibernate API
+* Add service layer, implement adding, updating and deleting of Entities.
 
 ### 26 - [spring-boot-demo](springbootdemo)
 

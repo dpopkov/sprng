@@ -1,10 +1,11 @@
-package learn.spr.sh4b.cruddemo.dao;
+package learn.spr.sh4b.cruddemo.service;
 
 import learn.spr.sh4b.cruddemo.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
+
     List<Employee> findAll();
 
     Employee findById(long id);
