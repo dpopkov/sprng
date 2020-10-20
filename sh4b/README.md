@@ -10,6 +10,7 @@ sh4b - Spring & Hibernate for Beginners
 * Use Entity Manager and standard JPA API.
 * Use Spring Data JPA.
 * Use Spring Data REST, remove restController and service.
+* Use Spring Data REST Configuration, Pagination (?page=n) and Sorting (?sort=lastName,desc).
 
 ### 26 - [spring-boot-demo](springbootdemo)
 
