@@ -4,6 +4,8 @@ sh4b - Spring & Hibernate for Beginners
 ### 28 - [thymeleaf-demo](thymeleafdemo)
 
 #### Spring Boot - Thymeleaf
+* Create a simple Thymeleaf app.
+* Apply CSS stylesheets. 
 
 ### 27 - [crud-demo](cruddemo)
 
