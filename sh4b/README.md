@@ -1,6 +1,8 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 29 - [thymeleaf-employees](thymeleafemployees)
+
 ### 28 - [thymeleaf-demo](thymeleafdemo)
 
 #### Spring Boot - Thymeleaf
