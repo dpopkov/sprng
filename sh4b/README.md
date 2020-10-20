@@ -9,6 +9,7 @@ sh4b - Spring & Hibernate for Beginners
 * Add service layer, implement adding, updating and deleting of Entities.
 * Use Entity Manager and standard JPA API.
 * Use Spring Data JPA.
+* Use Spring Data REST, remove restController and service.
 
 ### 26 - [spring-boot-demo](springbootdemo)
 
