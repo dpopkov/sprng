@@ -5,6 +5,7 @@ sh4b - Spring & Hibernate for Beginners
 
 #### Spring Boot - Thymeleaf CRUD project
 * Build html tables using Thymeleaf.
+* Add Bootstrap.
 
 ### 28 - [thymeleaf-demo](thymeleafdemo)
 
