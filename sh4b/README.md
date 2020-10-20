@@ -1,6 +1,10 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 28 - [thymeleaf-demo](thymeleafdemo)
+
+#### Spring Boot - Thymeleaf
+
 ### 27 - [crud-demo](cruddemo)
 
 #### Spring Boot - Build a REST CRUD API
