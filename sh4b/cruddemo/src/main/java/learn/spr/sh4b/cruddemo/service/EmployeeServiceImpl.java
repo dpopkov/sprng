@@ -1,46 +1,44 @@
 package learn.spr.sh4b.cruddemo.service;
 
-import learn.spr.sh4b.cruddemo.dao.EmployeeDAO;
-import learn.spr.sh4b.cruddemo.dao.EmployeeDAOJpaImpl;
+import learn.spr.sh4b.cruddemo.dao.EmployeeRepository;
 import learn.spr.sh4b.cruddemo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
-    private final EmployeeDAO employeeDAO;
+    private final EmployeeRepository employeeRepository;
 
     @Autowired
-    public EmployeeServiceImpl(@Qualifier(value = "employeeDAOJpaImpl")EmployeeDAO employeeDAO) {
-        this.employeeDAO = employeeDAO;
+    public EmployeeServiceImpl(EmployeeRepository repository) {
+        this.employeeRepository = repository;
     }
 
-    @Transactional
     @Override
     public List<Employee> findAll() {
-        return employeeDAO.findAll();
+        return employeeRepository.findAll();
     }
 
-    @Transactional
     @Override
     public Employee findById(long id) {
-        return employeeDAO.findById(id);
+        Optional<Employee> result = employeeRepository.findById(id);
+        if (result.isPresent()) {
+            return result.get();
+        }
+        throw new RuntimeException("Employee id not found - " + id);
     }
 
-    @Transactional
     @Override
     public void save(Employee employee) {
-        employeeDAO.save(employee);
+        employeeRepository.save(employee);
     }
 
-    @Transactional
     @Override
     public void deleteById(long id) {
-        employeeDAO.deleteById(id);
+        employeeRepository.deleteById(id);
     }
 }

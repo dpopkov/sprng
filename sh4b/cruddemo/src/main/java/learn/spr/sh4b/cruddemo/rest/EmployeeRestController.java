@@ -1,6 +1,5 @@
 package learn.spr.sh4b.cruddemo.rest;
 
-import learn.spr.sh4b.cruddemo.dao.EmployeeDAO;
 import learn.spr.sh4b.cruddemo.entity.Employee;
 import learn.spr.sh4b.cruddemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,11 +24,7 @@ public class EmployeeRestController {
 
     @GetMapping("/employees/{employeeId}")
     public Employee findById(@PathVariable long employeeId) {
-        Employee employee = employeeService.findById(employeeId);
-        if (employee == null) {
-            throw new RuntimeException("Employee id not found - " + employeeId);
-        }
-        return employee;
+        return employeeService.findById(employeeId);
     }
 
     @PostMapping("/employees")
