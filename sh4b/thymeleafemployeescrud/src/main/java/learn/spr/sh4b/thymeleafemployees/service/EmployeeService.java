@@ -8,6 +8,8 @@ public interface EmployeeService {
 
     List<Employee> findAll();
 
+    List<Employee> findAllByOrderByLastNameAsc();
+
     Employee findById(long id);
 
     void save(Employee employee);
