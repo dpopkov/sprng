@@ -1,9 +1,14 @@
 sh4b - Spring & Hibernate for Beginners
 =======================================
 
+### 30 - [thymeleaf-employees-crud](thymeleafemployeescrud)
+
+#### Spring Boot - Thymeleaf CRUD DB project
+* Add DB support, repository, service and controller for CRUD operations.
+
 ### 29 - [thymeleaf-employees](thymeleafemployees)
 
-#### Spring Boot - Thymeleaf CRUD project
+#### Spring Boot - Thymeleaf simple project
 * Build html tables using Thymeleaf.
 * Add Bootstrap.
 
