@@ -6,6 +6,7 @@ sh4b - Spring & Hibernate for Beginners
 #### Spring Boot - Thymeleaf CRUD DB project
 * Add DB support, repository, service and controller for CRUD operations.
 * Use data binding in form using Thymeleaf to implement employee adding.
+* Implement updating and deleting.
 
 ### 29 - [thymeleaf-employees](thymeleafemployees)
 
