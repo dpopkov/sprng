@@ -3,6 +3,10 @@ Full Stack: Angular and Spring Boot - Ecommerce-Proj
 
 [Development Process](dev_process.md)
 
+Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
+---------------------------------------------------------------------------
+* Online Shop Template Integration
+
 Release 1.0 - Show a list of products
 -------------------------------------
 * Develop JPA entities (without Lombok because this thing creates issues).
