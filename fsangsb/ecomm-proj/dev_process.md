@@ -11,6 +11,7 @@ Development Process
 6. Integrate template files into Angular app
 7. Add support for icons and logos
 8. Add support for product grid
+9. Enhance the application with product images (not committing real images in src/assets/images/products)
 
 1 - Add Angular Front End for Product List
 ------------------------------------------
@@ -21,4 +22,3 @@ Development Process
 5. Update Angular component to subscribe to data from Angular service
 6. Display the data in an HTML page
 7. Add CrossOrigin support to Spring Boot app
-
