@@ -10,6 +10,7 @@ Development Process
 5. Add local custom CSS styles to Angular src/styles.css file
 6. Integrate template files into Angular app
 7. Add support for icons and logos
+8. Add support for product grid
 
 1 - Add Angular Front End for Product List
 ------------------------------------------
