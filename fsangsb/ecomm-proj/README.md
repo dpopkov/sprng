@@ -9,3 +9,5 @@ Release 1.0 - Show a list of products
 * Create REST APIs with Spring Data JPA Repositories and Spring Data REST.
 * Make REST API read-only.
 * Add Angular Front End Project.
+* Frontend: add component, class and service, build HTML table, add images.
+* Backend: add CrossOrigin annotation
