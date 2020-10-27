@@ -8,6 +8,8 @@ Development Process
 3. Define the Router Outlet
 4. Set upt Router Links to pass category id param
 5. Enhance ProductListComponent to read category id param
+6. Modify Spring Boot app - REST Repository needs new query method
+7. Update Angular Service to call new URL on Spring Boot app
 
 2 - Online Shop Template Integration
 ------------------------------------
