@@ -6,6 +6,7 @@ Full Stack: Angular and Spring Boot - Ecommerce-Proj
 Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
 ---------------------------------------------------------------------------
 * Online Shop Template Integration
+* Search for products by category
 
 Release 1.0 - Show a list of products
 -------------------------------------

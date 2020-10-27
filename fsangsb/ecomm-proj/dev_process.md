@@ -1,6 +1,11 @@
 Development Process
 ===================
 
+3 - Search for Products by Category
+-----------------------------------
+1. Define routes
+2. Configure Router based on the routes
+
 2 - Online Shop Template Integration
 ------------------------------------
 1. Download the HTML template starter files
