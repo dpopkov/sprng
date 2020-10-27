@@ -7,6 +7,7 @@ Development Process
 2. Configure Router based on the routes
 3. Define the Router Outlet
 4. Set upt Router Links to pass category id param
+5. Enhance ProductListComponent to read category id param
 
 2 - Online Shop Template Integration
 ------------------------------------
