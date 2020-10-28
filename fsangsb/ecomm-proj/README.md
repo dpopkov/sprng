@@ -7,6 +7,7 @@ Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
 ---------------------------------------------------------------------------
 * Online Shop Template Integration
 * Search for products by category
+* Search by category (enhanced version) - read categories from db via REST API
 
 Release 1.0 - Show a list of products
 -------------------------------------

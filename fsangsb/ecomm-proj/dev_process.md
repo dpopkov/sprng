@@ -1,6 +1,10 @@
 Development Process
 ===================
 
+4 - Search by category (enhanced version) - read categories from db via REST API
+--------------------------------------------------------------------------------
+1. Modify Spring Boot app - Expose entity ids
+
 3 - Search for Products by Category
 -----------------------------------
 1. Define routes
