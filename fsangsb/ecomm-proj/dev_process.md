@@ -4,6 +4,10 @@ Development Process
 4 - Search by category (enhanced version) - read categories from db via REST API
 --------------------------------------------------------------------------------
 1. Modify Spring Boot app - Expose entity ids
+2. Create a class: Product Category
+3. Create new component for menu
+4. Enhance menu component to read data from product service
+5. Update product service to call URL on Spring Boot app
 
 3 - Search for Products by Category
 -----------------------------------
