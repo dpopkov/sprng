@@ -1,6 +1,15 @@
 Development Process
 ===================
 
+5 - Search for products by text box (by keyword)
+------------------------------------------------
+1. Modify Spring Boot app - Add a new search method findByNameContaining
+2. Create new component for search
+3. Add new Angular route for searching
+4. Update the new SearchComponent to send data to search route
+5. Enhance ProductListComponent to search for products with ProductService
+6. Update ProductService to call URL on Spring Boot app
+
 4 - Search by category (enhanced version) - read categories from db via REST API
 --------------------------------------------------------------------------------
 1. Modify Spring Boot app - Expose entity ids
