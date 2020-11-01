@@ -6,6 +6,9 @@ Development Process
 1. Create new component for product details
 2. Add new Angular route for product details
 3. Add router links to the product-list-grid HTML page
+4. Enhance ProductDetailsComponent to retrieve product from ProductService
+5. Update ProductService to call URL on Spring Boot app
+6. Update HTML page for ProductDetailsComponent to display product details
 
 5 - Search for products by text box (by keyword)
 ------------------------------------------------
