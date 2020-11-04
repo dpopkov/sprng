@@ -1,6 +1,14 @@
 Development Process
 ===================
 
+7 - Add pagination support for products
+---------------------------------------
+1. Install ng-bootstrap (ng add @ng-bootstrap/ng-bootstrap)
+2. Refactor(update) the interface GetResponseProducts in products.service
+3. Add pagination support to ProductService
+4. Update ProductListComponent to handle pagination
+5. Enhance HTML template to use ng-bootstrap pagination component
+
 6 - Product Master-Detail View
 ------------------------------
 1. Create new component for product details
