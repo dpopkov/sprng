@@ -11,6 +11,7 @@ Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
 * Search for products by text box (by keyword)
 * Product Master-Detail View
 * Pagination support for products
+* Pagination - Selecting Page size
 
 Release 1.0 - Show a list of products
 -------------------------------------

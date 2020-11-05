@@ -1,6 +1,12 @@
 Development Process
 ===================
 
+8 - Pagination - Selecting Page size
+------------------------------------
+1. Add drop-down list for page size to HTML template
+2. Update ProductListComponent for setting page size
+3. Add parameters for setting Max Size and Boundary Links 
+
 7 - Add pagination support for products
 ---------------------------------------
 1. Install ng-bootstrap (ng add @ng-bootstrap/ng-bootstrap)
