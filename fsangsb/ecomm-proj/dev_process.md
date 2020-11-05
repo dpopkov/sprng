@@ -1,6 +1,11 @@
 Development Process
 ===================
 
+10 - Pagination for keyword search
+----------------------------------
+1. Add pagination support to ProductService
+2. Update ProductListComponent to handle pagination
+
 8 - Pagination - Selecting Page size
 ------------------------------------
 1. Add drop-down list for page size to HTML template
