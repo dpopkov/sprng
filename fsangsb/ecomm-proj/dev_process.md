@@ -1,6 +1,13 @@
 Development Process
 ===================
 
+11 - Add Cart Status Component: on main page, display total price and quantity
+------------------------------------------------------------------------------
+1. Create new component: CartStatusComponent
+2. Add HTML template for CartStatusComponent
+3. Add click handler for "Add to cart" button
+4. Update ProductListComponent with click handler method
+
 10 - Pagination for keyword search
 ----------------------------------
 1. Add pagination support to ProductService
