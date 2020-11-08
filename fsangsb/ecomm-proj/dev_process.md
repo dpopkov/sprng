@@ -12,6 +12,7 @@ Development Process
 7. Modify ProductListComponent to call CartService
 8. Enhance CartStatusComponent to subscribe to CartService
 9. Update CartStatusComponent HTML to display cart total price and quantity
+10. Add to Cart from Details View
 
 10 - Pagination for keyword search
 ----------------------------------
