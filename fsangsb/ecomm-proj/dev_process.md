@@ -5,6 +5,10 @@ Development Process
 ------------------------------------------
 1. Modify CartDetailsComponent HTML template (add increment buttons)
 2. Add click handler for the "increment" button
+3. Add click handler for the "decrement" button on HTML template
+4. Update CartDetailsComponent with click handler method
+5. Modify CartService with supporting method
+6. Repeat process for "Remove" button
 
 12 - Cart Details Page: list the items in the cart
 --------------------------------------------------
