@@ -6,6 +6,9 @@ Development Process
 1. Create new component: CartDetailsComponent
 2. Add new route for CartDetailsComponent to app.module.ts
 3. Update link for Shopping Cart icon
+4. Modify CartDetailComponent to retrieve cart items
+5. Add HTML template for CartDetails Component
+6. Handle an empty cart
 
 11 - Add Cart Status Component: on main page, display total price and quantity
 ------------------------------------------------------------------------------
