@@ -1,6 +1,11 @@
 Development Process
 ===================
 
+13 - Cart Details Page: add / remove items
+------------------------------------------
+1. Modify CartDetailsComponent HTML template (add increment buttons)
+2. Add click handler for the "increment" button
+
 12 - Cart Details Page: list the items in the cart
 --------------------------------------------------
 1. Create new component: CartDetailsComponent

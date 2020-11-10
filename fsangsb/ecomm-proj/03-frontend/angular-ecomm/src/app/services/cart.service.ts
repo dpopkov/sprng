@@ -16,7 +16,7 @@ export class CartService {
   addToCart(theItem: CartItem) {
     let existingItem: CartItem = this.cartItems.find(item => item.id === theItem.id);
     if (existingItem != undefined) {
-      existingItem.quantity += theItem.quantity;
+      existingItem.quantity++;
     } else {
       this.cartItems.push(theItem);
     }

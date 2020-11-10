@@ -15,6 +15,7 @@ Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
 * Pagination for keyword search
 * Add Cart Status Component: on main page, display total price and quantity
 * Cart Details Page: list the items in the cart
+* Cart Details Page: add / remove items
 
 Release 1.0 - Show a list of products
 -------------------------------------
