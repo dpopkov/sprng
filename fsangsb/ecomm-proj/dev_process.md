@@ -1,6 +1,12 @@
 Development Process
 ===================
 
+12 - Cart Details Page: list the items in the cart
+--------------------------------------------------
+1. Create new component: CartDetailsComponent
+2. Add new route for CartDetailsComponent to app.module.ts
+3. Update link for Shopping Cart icon
+
 11 - Add Cart Status Component: on main page, display total price and quantity
 ------------------------------------------------------------------------------
 1. Create new component: CartStatusComponent
