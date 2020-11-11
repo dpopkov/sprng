@@ -6,6 +6,10 @@ Development Process
 1. Generate the checkout component
 2. Add a new route for checkout component
 3. Create a new checkout button and link to checkout component
+4. Add support for reactive forms
+5. Define form in component .ts file
+6. Layout form controls in HTML template
+7. Add event handler for form submission
 
 13 - Cart Details Page: add / remove items
 ------------------------------------------
