@@ -10,6 +10,8 @@ Development Process
 5. Define form in component .ts file
 6. Layout form controls in HTML template
 7. Add event handler for form submission
+8. Add for code and input for Shipping Address, Billing Address, and Credit Card
+9. Review your order
 
 13 - Cart Details Page: add / remove items
 ------------------------------------------
