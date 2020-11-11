@@ -1,6 +1,12 @@
 Development Process
 ===================
 
+14 - Checkout Form - Layout
+---------------------------
+1. Generate the checkout component
+2. Add a new route for checkout component
+3. Create a new checkout button and link to checkout component
+
 13 - Cart Details Page: add / remove items
 ------------------------------------------
 1. Modify CartDetailsComponent HTML template (add increment buttons)
