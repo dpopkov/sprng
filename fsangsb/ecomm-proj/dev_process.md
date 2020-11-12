@@ -4,6 +4,9 @@ Development Process
 16 - Checkout Form - Populate Countries and States
 --------------------------------------------------
 1. Create database tables
+2. Develop JPA Entities (Country, State)
+3. Create Spring Data Repositories
+4. Update Spring Data REST Configs
 
 15 - Checkout Form - Dropdown Lists - Populate Credit Card expiration dates
 ---------------------------------------------------------------------------

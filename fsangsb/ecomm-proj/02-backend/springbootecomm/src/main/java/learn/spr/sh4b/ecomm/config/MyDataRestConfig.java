@@ -1,7 +1,9 @@
 package learn.spr.sh4b.ecomm.config;
 
+import learn.spr.sh4b.ecomm.entity.Country;
 import learn.spr.sh4b.ecomm.entity.Product;
 import learn.spr.sh4b.ecomm.entity.ProductCategory;
+import learn.spr.sh4b.ecomm.entity.State;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
@@ -29,6 +31,8 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
         disableHttpMethods(config, Product.class);
         disableHttpMethods(config, ProductCategory.class);
+        disableHttpMethods(config, Country.class);
+        disableHttpMethods(config, State.class);
 
         exposeIds(config);
     }
