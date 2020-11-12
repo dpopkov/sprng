@@ -7,6 +7,7 @@ Development Process
 2. Add methods to the form service for months and years
 3. Update checkout component to retrieve the months and years from service
 4. Update HTML template to populate drop-down lists for months and years
+5. Use dependent fields for expiration year and month
 
 14 - Checkout Form - Layout
 ---------------------------
