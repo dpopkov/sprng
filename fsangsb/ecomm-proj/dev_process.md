@@ -1,6 +1,10 @@
 Development Process
 ===================
 
+16 - Checkout Form - Populate Countries and States
+--------------------------------------------------
+1. Create database tables
+
 15 - Checkout Form - Dropdown Lists - Populate Credit Card expiration dates
 ---------------------------------------------------------------------------
 1. Generate form service: ShopFormService
