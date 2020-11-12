@@ -17,7 +17,8 @@ Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
 * Cart Details Page: list the items in the cart
 * Cart Details Page: add / remove items
 * Checkout Form - Layout
-* Checkout Form - Populate Countries and States
+* Checkout Form - Populate Countries and States: Backend
+* Checkout Form - Populate Countries and States: Frontend
 
 Release 1.0 - Show a list of products
 -------------------------------------

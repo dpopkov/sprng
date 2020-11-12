@@ -1,6 +1,14 @@
 Development Process
 ===================
 
+17 - Checkout Form - Populate Countries and States: Frontend
+------------------------------------------------------------
+1. Create TypeScript classes for Country and State
+2. Add methods to the form service for countries and states
+3. Update checkout component to retrieve the countries from service
+4. Update HTML template to populate dropdown lists for countries
+5. Add event handler for checkout component for retrieving list of states based on country
+
 16 - Checkout Form - Populate Countries and States
 --------------------------------------------------
 1. Create database tables
