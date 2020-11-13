@@ -1,6 +1,12 @@
 Development Process
 ===================
 
+19 - Checkout Form - Custom Validation
+--------------------------------------
+1. Define custom validator rule
+2. Specify custom validator rule for the form controls
+3. Update HTML template to display error messages
+
 18 - Checkout Form - Validation
 -------------------------------
 1. Specify validation rules for the form controls
