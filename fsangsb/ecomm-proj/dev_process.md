@@ -1,6 +1,13 @@
 Development Process
 ===================
 
+18 - Checkout Form - Validation
+-------------------------------
+1. Specify validation rules for the form controls
+2. Define Getter methods to access form controls
+3. Update HTML template to display error messages
+4. Add event handler to check validation status when submit button clicked
+
 17 - Checkout Form - Populate Countries and States: Frontend
 ------------------------------------------------------------
 1. Create TypeScript classes for Country and State
