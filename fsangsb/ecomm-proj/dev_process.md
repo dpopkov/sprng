@@ -1,6 +1,12 @@
 Development Process
 ===================
 
+20 - Checkout Form - Shipping and Billing Validation
+----------------------------------------------------
+1. Specify validation rules for the form controls
+2. Define Getter methods to access form controls
+3. Update HTML template to display error messages.
+
 19 - Checkout Form - Custom Validation
 --------------------------------------
 1. Define custom validator rule

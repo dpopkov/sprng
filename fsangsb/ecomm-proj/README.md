@@ -20,6 +20,7 @@ Release 2.0 - Add products to shopping cart (CRUD), Shopping cart check out
 * Checkout Form - Populate Countries and States: Backend
 * Checkout Form - Populate Countries and States: Frontend
 * Checkout Form - Validation
+* Checkout Form - Shipping and Billing Validation
 
 Release 1.0 - Show a list of products
 -------------------------------------
